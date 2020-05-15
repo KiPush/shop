@@ -96,3 +96,167 @@ h6 {
 }
 
 /*--------------------*/
+.border {
+    border: 1px solid red;
+}
+
+.wrap {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.page {}
+
+.main {
+    position: relative;
+    background-color: #f3f4f9;
+    min-height: 950px;
+    padding-top: 67px;
+}
+
+.main-wrap {
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 65px;
+}
+
+.logo {}
+
+.nav {
+    min-width: 593px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    font-size: 16px;
+    color: #000;
+}
+
+
+
+.img_bg {
+    position: absolute;
+    top: 228px;
+    left: 207px;
+    width: 594px;
+    height: 594px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.main-screen__img {
+    position: absolute;
+    top: 149px;
+    left: -73px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-screen__info {
+    width: 468px;
+    height: 365px;
+    position: absolute;
+    top: 368px;
+    left: 871px;
+
+}
+
+.info__title {
+    color: #000000;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.info__text {
+    opacity: 0.8;
+    color: #000000;
+    font-size: 21px;
+    line-height: 36px;
+    margin: 27px 0 70px 0;
+}
+
+.info__link {
+    /* Style for "view" */
+    color: #000000;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.welcome {
+    margin: 126px 0 132px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.up-title {
+    opacity: 0.8;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title_service{
+    max-width: 665px;
+    margin: 34px auto 129px auto;
+}
+
+.service {
+    display: flex;
+    width: 1139px;
+}
+
+.service__item {
+    flex: 1 0 33.33%;
+    display: flex;
+    /* width: 351px; */
+    padding: 0 14.5px 0 14.5px;
+
+}
+
+.item__img {}
+
+.item__info {
+    margin-left: 32px;
+}
+
+.item__title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.item__text {
+    opacity: 0.5;
+    line-height: 24px;
+}
+
+.bestsaler {}
+
+.title_bestsaler{
+    margin-bottom: 34px;
+}
+.sub-title {
+    font-size: 19px;
+    text-align: center;
+}
